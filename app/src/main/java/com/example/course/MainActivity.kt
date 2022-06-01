@@ -15,13 +15,10 @@ import android.support.v4.app.LoaderManager
 import android.widget.AdapterView
 
 
+ val i :Int = 5
 class MainActivity : AppCompatActivity() {
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
     }
 }
